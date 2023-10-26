@@ -28,6 +28,7 @@ def dashboard():
         return redirect(url_for('upload_file'))
 
     # 데이터 분석 및 시각화
+    #
     # 이 예시에서는 간단한 히스토그램 생성
     plt.figure()
     data['Value'].plot(kind='hist')
